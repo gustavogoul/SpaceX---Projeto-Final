@@ -1,0 +1,35 @@
+.imagem1 {
+  background-image: url("./assets/imgs/home/01.jpg");
+}
+
+.imagem2 {
+  background-image: url("./assets/imgs/home/02.gif");
+}
+
+.imagem3 {
+  background-image: url("./assets/imgs/home/03.jpg");
+}
+
+.imagem4 {
+  background-image: url("./assets/imgs/home/04.jpg");
+}
+
+.texto {
+  position: absolute;
+  top: 30%;
+  left: 15%;
+  width: 100%;
+  text-align: start;
+  font-size: 18px;
+}
+
+.texto2 {
+  top: 20%;
+}
+
+#seta {
+  display: inline-block;
+  width: 90px;
+  position: absolute;
+  left: 55%;
+}

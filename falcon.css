@@ -1,0 +1,87 @@
+.imagem1 {
+  background-image: url("assets/imgs/falcon9/01.jpg");
+}
+
+.imagem2 {
+  background-image: url("./assets/imgs/falcon9/02.jpg");
+}
+
+.imagem3 {
+  background-color: black;
+}
+
+.imagem4 {
+  background-image: url("assets/imgs/falcon9/08.jpg");
+}
+
+.titleContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+  position: relative;
+  right: 9%;
+}
+
+.titleSection {
+  width: 1000px;
+  font-size: 90px;
+  font-family: "Rubik", sans-serif;
+  font-weight: 500;
+}
+
+.informacoesFoguete {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: space-around;
+  position: relative;
+  height: 40vh;
+  background-color: black;
+}
+
+.numero {
+  font-size: 90px;
+}
+.descricaoNumero {
+  font-size: 20px;
+}
+
+.descricaoFalcon {
+  font-size: 25px;
+  line-height: 50px;
+  font-weight: 400;
+  position: absolute;
+  top: 15rem;
+  left: 15rem;
+  height: 40vh;
+  width: 70vh;
+}
+
+.slide1 {
+  display: block;
+  margin-left: 15%;
+  padding-top: 10%;
+  position: absolute;
+  z-index: 1;
+  top: 8%;
+}
+
+#tabelaItem1 {
+  border-top: 10px solid transparent !important;
+}
+
+#tabelaLastItem {
+  border-bottom: 1px solid white !important;
+}
+
+.slide2 {
+  width: 28vw;
+}
+
+.table {
+  width: 25vw;
+  display: table;
+  border-color: grey;
+}
